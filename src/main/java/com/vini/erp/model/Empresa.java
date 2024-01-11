@@ -26,7 +26,7 @@ public class Empresa implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	@Column(name = "nome_fantasia", nullable = false, length = 80)
@@ -44,7 +44,7 @@ public class Empresa implements Serializable {
 	
 	@ManyToOne
 	@JoinColumn(name = "ramo_atividade_id", nullable = false)
-	private RamoAtividiade ramoAtividiade;
+	private RamoAtividade ramoAtividade;
 	
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false, length = 35)
@@ -90,12 +90,20 @@ public class Empresa implements Serializable {
 		this.dataFundacao = dataFundacao;
 	}
 
-	public RamoAtividiade getRamoAtividiade() {
-		return ramoAtividiade;
+	public RamoAtividade getRamoAtividade() {
+		return ramoAtividade;
 	}
 
-	public void setRamoAtividiade(RamoAtividiade ramoAtividiade) {
-		this.ramoAtividiade = ramoAtividiade;
+	public void setRamoAtividade(RamoAtividade ramoAtividade) {
+		this.ramoAtividade = ramoAtividade;
+	}
+
+	public TipoEmpresa getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoEmpresa tipo) {
+		this.tipo = tipo;
 	}
 
 	@Override
