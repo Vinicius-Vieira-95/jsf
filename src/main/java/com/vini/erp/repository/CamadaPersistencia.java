@@ -30,10 +30,10 @@ public class CamadaPersistencia {
 		System.out.println(listaDeEmpresas);
 		
 		//Criando uma empresa
-		Empresa empresa = new Empresa();		
-		empresa.setNomeFantasia("João da Silva");
+		Empresa empresa = new Empresa();
+		empresa.setNomeFantasia("Vinicius Vieira");
 		empresa.setCnpj("41.952.519/0001-57");
-		empresa.setRazaoSocial("João da Silva 41952519000157");
+		empresa.setRazaoSocial("Vini 41952519000157");
 		empresa.setTipo(TipoEmpresa.MEI);
 		empresa.setDataFundacao(new Date());
 		empresa.setRamoAtividade(listaDeRamoAtividades.get(0));
