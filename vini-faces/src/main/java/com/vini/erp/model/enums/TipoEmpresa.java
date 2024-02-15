@@ -1,4 +1,4 @@
-package com.vini.erp.entities.enums;
+package com.vini.erp.model.enums;
 
 public enum TipoEmpresa {
 	

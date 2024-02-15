@@ -1,4 +1,4 @@
-package com.vini.erp.entities;
+package com.vini.erp.model;
 
 import java.io.Serializable;
 

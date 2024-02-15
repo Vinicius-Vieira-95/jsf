@@ -1,4 +1,4 @@
-package com.vini.erp.entities;
+package com.vini.erp.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.vini.erp.entities.enums.TipoEmpresa;
+import com.vini.erp.model.enums.TipoEmpresa;
 
 public class Empresa implements Serializable {
 	private static final long serialVersionUID = 1L;
