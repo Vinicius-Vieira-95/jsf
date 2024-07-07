@@ -1,4 +1,8 @@
 eclipse.preferences.version=1
+entitygen.DEFAULT_PACKAGE=model
 org.eclipse.jpt.core.platform=generic2_2
 org.eclipse.jpt.jpa.core.discoverAnnotatedClasses=true
+<<<<<<< HEAD
 org.eclipse.jpt.jpa.core.metamodelSourceFolderName=src/main/resources
+=======
+>>>>>>> a6055bbc97e91384a142fcc85d6bce1fd0dd3e13
