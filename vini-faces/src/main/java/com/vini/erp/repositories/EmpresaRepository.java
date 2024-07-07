@@ -6,7 +6,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
-import com.vini.erp.entities.Empresa;
+import com.vini.erp.model.Empresa;
 
 public class EmpresaRepository implements Serializable {
 

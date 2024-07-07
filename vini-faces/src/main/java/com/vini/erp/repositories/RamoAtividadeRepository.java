@@ -9,7 +9,7 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import com.vini.erp.entities.RamoAtividade;
+import com.vini.erp.model.RamoAtividade;
 
 public class RamoAtividadeRepository implements Serializable{
 	

@@ -7,9 +7,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import com.vini.erp.entities.Empresa;
-import com.vini.erp.entities.RamoAtividade;
-import com.vini.erp.entities.enums.TipoEmpresa;
+import com.vini.erp.model.Empresa;
+import com.vini.erp.model.RamoAtividade;
+import com.vini.erp.model.enums.TipoEmpresa;
 
 public class CamadaTeste {
 
